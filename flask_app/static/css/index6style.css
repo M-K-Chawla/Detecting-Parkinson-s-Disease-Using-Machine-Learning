@@ -82,6 +82,12 @@
         position: absolute;
         color: #120e0e;
         }
+    .Parkinson1{
+          top: 65%;Left: 53%;
+          transform: translate(-50%, -50%);
+          position: absolute;
+          color: #120e0e;
+          }
     .submit{
         font-size: medium;
         width: 100%;
