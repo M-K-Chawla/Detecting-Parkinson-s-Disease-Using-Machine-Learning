@@ -24,8 +24,8 @@ def upload():
         f.save(filepath)#saving the file
         #Loading the saved model
         print("[INFO] Loading model...")
-        load_path=r'parkinson.joblib'
-        model =joblib.load(load_path)
+        load_path = os.path.join(basepath, "parkinson.joblib")
+        model = joblib.load(load_path)
         image=cv2.imread(filepath)
         #pre-process the image in the same manner we did earlier 
         output=image.copy() 
